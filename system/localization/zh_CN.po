@@ -1,0 +1,1260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-03-01 23:10+0800\n"
+"PO-Revision-Date: 2025-03-02 01:43+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: Localization.Get:1;Localization.GetPlural:1,2;"
+"Localization.GetParticular:1c,2;Localization.GetParticularPlural:1c,2,3;L:1;"
+"LN:1,2;LX:1c,2;LXN:1c,2,3\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: system\n"
+
+#: src/BarracksServer/Network/PacketHandler.cs:98
+msgid ""
+"This account appears to already be logged in. A logout request was created, "
+"please try again."
+msgstr "该账号似乎已登录，已创建登出请求，请稍后重试。"
+
+#: src/BarracksServer/Network/PacketHandler.cs:352
+msgid "This job has been disabled on this server."
+msgstr "该职业在本服务器已被禁用。"
+
+#: src/BarracksServer/Network/PacketHandler.cs:503
+msgid ""
+"This channel appears to be offline. Please choose another or try again later."
+msgstr "该频道似乎已离线，请选择其他频道或稍后重试。"
+
+#: src/BarracksServer/Network/PacketHandler.cs:753
+#: src/BarracksServer/Network/PacketHandler.cs:809
+msgid "Mail has expired, can't receive items."
+msgstr "邮件已过期，无法接收物品。"
+
+#: src/Shared/Configuration/Files/Barracks.cs:40
+msgid "ipf_checksum"
+msgstr "IPF校验码"
+
+#: src/Shared/Configuration/Files/Barracks.cs:43
+msgid "start_map"
+msgstr "初始地图"
+
+#: src/Shared/Configuration/Files/Commands.cs:44
+msgid "prefix"
+msgstr "前缀"
+
+#: src/Shared/Configuration/Files/Database.cs:23
+msgid "host"
+msgstr "主机"
+
+#: src/Shared/Configuration/Files/Database.cs:24
+msgid "user"
+msgstr "用户名"
+
+#: src/Shared/Configuration/Files/Database.cs:25
+msgid "pass"
+msgstr "密码"
+
+#: src/Shared/Configuration/Files/Database.cs:26
+msgid "database"
+msgstr "数据库"
+
+#: src/Shared/Configuration/Files/Inter.cs:20
+msgid "authentication"
+msgstr "认证"
+
+#: src/Shared/Configuration/Files/Localization.cs:22
+msgid "language"
+msgstr "语言"
+
+#: src/Shared/Configuration/Files/Localization.cs:23
+msgid "culture"
+msgstr "区域"
+
+#: src/Shared/Configuration/Files/Localization.cs:24
+msgid "culture_ui"
+msgstr "界面区域"
+
+#: src/Shared/Configuration/Files/Web.cs:21
+msgid "php_cgi_bin"
+msgstr "PHP执行路径"
+
+#: src/Shared/Database/MeliaDb.cs:188 src/ZoneServer/Database/ZoneDb.cs:317
+#: src/ZoneServer/Database/ZoneDb.cs:886
+msgid "name"
+msgstr "名称"
+
+#: src/Shared/Database/MeliaDb.cs:189 src/ZoneServer/Database/ZoneDb.cs:318
+#: src/ZoneServer/Database/ZoneDb.cs:887
+msgid "type"
+msgstr "类型"
+
+#: src/Shared/Database/MeliaDb.cs:190 src/ZoneServer/Database/ZoneDb.cs:319
+msgid "value"
+msgstr "数值"
+
+#: src/SocialServer/Commands/ChatCommands.Manager.cs:67
+#, csharp-format
+msgid "Unknown command: {0}, message: {1}."
+msgstr "未知命令：{0}，消息：{1}。"
+
+#: src/SocialServer/Commands/ChatCommands.Manager.cs:93
+#: src/ZoneServer/Commands/ChatCommands.Manager.cs:142
+msgid "Failed to execute command."
+msgstr "执行命令失败。"
+
+#: src/SocialServer/Commands/ChatCommands.Manager.cs:97
+#: src/ZoneServer/Commands/ChatCommands.Manager.cs:146
+#, csharp-format
+msgid "Invalid argument, usage: {0}{1} {2}"
+msgstr "参数错误，用法：{0}{1} {2}"
+
+#: src/SocialServer/Database/SocialDb.cs:388
+msgid "receiverName"
+msgstr "收件人"
+
+#: src/SocialServer/Database/SocialDb.cs:390
+msgid "senderName"
+msgstr "发件人"
+
+#: src/SocialServer/Network/PacketHandlerChat.cs:308
+#: src/SocialServer/Network/PacketHandlerChat.cs:389
+#, csharp-format
+msgid "{0} has joined."
+msgstr "{0} 加入了聊天。"
+
+#: src/SocialServer/Network/PacketHandlerChat.cs:455
+#, csharp-format
+msgid "{0} has left."
+msgstr "{0} 离开了聊天。"
+
+#: src/Test.Shared/ObjectProperties/Properties.cs:19
+#: src/Test.Shared/ObjectProperties/Properties.cs:26
+#: src/Test.Shared/ObjectProperties/Properties.cs:37
+#: src/Test.Shared/ObjectProperties/Properties.cs:41
+#: src/Test.Shared/ObjectProperties/Properties.cs:53
+#: src/Test.Shared/ObjectProperties/Properties.cs:60
+msgid "Bar"
+msgstr "栏位"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:128
+msgid "Saved first position. Go to second position and use the command again."
+msgstr "已保存第一坐标，请移动至第二坐标后再次使用命令。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:138
+#, csharp-format
+msgid "Distance: {0:0.##} (2D), {1:0.##} (3D)"
+msgstr "距离：{0:0.##}（平面），{1:0.##}（立体）"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:173
+#, csharp-format
+msgid "You are here: {0} ({1}), {2} (Direction: {3:0.#####}°)"
+msgstr "当前位置：{0}（{1}），{2}（朝向：{3:0.#####}°）"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:175
+#, csharp-format
+msgid "{3} is here: {0} ({1}), {2} (Direction: {3:0.#####}°)"
+msgstr "{3} 的位置：{0}（{1}），{2}（朝向：{3:0.#####}°）"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:193
+#, csharp-format
+msgid "Server Time: {0:yyyy-MM-dd HH:mm}"
+msgstr "服务器时间：{0:yyyy-MM-dd HH:mm}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:194
+#, csharp-format
+msgid "Game Time: {0:y-M-dd HH:mm} ({1})"
+msgstr "游戏时间：{0:y-M-dd HH:mm}（{1}）"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:221
+msgid "Command not found or not available."
+msgstr "未找到或无法使用该命令。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:227
+#, csharp-format
+msgid "Name: {0}"
+msgstr "名称：{0}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:229
+#, csharp-format
+msgid "Aliases: {0}"
+msgstr "别名：{0}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:230
+#, csharp-format
+msgid "Description: {0}"
+msgstr "描述：{0}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:231
+#, csharp-format
+msgid "Arguments: {0}"
+msgstr "参数：{0}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:249
+msgid "No commands found."
+msgstr "未找到命令。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:255
+msgid "Available commands:"
+msgstr "可用命令："
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:297
+msgid "Jump to random position failed."
+msgstr "随机跳跃失败。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:320
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:444
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1160
+#, csharp-format
+msgid "You were warped to {0}."
+msgstr "你已被传送至 {0}。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:324
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:448
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1164
+#, csharp-format
+msgid "You were warped to {0} by {1}."
+msgstr "你被 {1} 传送至 {0}。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:325
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:449
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1165
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1204
+msgid "Target was warped."
+msgstr "目标已被传送。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:344
+msgid "Only premium token users are allowed to use this feature."
+msgstr "仅限高级令牌用户使用此功能。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:356
+msgid "Error: The destination does not appear to exist."
+msgstr "错误：目标位置不存在。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:369
+msgid "Error: The destination does not appear to be available."
+msgstr "错误：目标位置不可用。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:399
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:409
+msgid "Map not found."
+msgstr "未找到地图。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:419
+msgid "Random position warp failed."
+msgstr "随机位置传送失败。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:481
+#, csharp-format
+msgid "Item '{0}' not found."
+msgstr "未找到物品「{0}」。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:490
+msgid "Item not found."
+msgstr "物品未找到。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:506
+msgid "Item created."
+msgstr "物品已创建。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:508
+#, csharp-format
+msgid "An item was added to your inventory by {0}."
+msgstr "{0} 向你的背包添加了一件物品。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:538
+#, csharp-format
+msgid "{0:n0} silver were added to your inventory."
+msgstr "你的背包增加了 {0:n0} 银币。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:542
+#, csharp-format
+msgid "{0:n0} silver were added to target's inventory."
+msgstr "目标的背包增加了 {0:n0} 银币。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:543
+#, csharp-format
+msgid "{0} added {1:n0} silver to your inventory."
+msgstr "{0} 向你的背包添加了 {1:n0} 银币。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:555
+#, csharp-format
+msgid "{0:n0} silver were removed from your inventory."
+msgstr "你的背包移除了 {0:n0} 银币。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:559
+#, csharp-format
+msgid "{0:n0} silver were removed from target's inventory."
+msgstr "目标的背包移除了 {0:n0} 银币。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:560
+#, csharp-format
+msgid "{0} removed {1:n0} silver from your inventory."
+msgstr "{0} 从你的背包移除了 {1:n0} 银币。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:587
+msgid "Monster not found by id."
+msgstr "未通过ID找到怪物。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:598
+msgid "Monster not found by name."
+msgstr "未通过名称找到怪物。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:657
+msgid "Invalid HP amount."
+msgstr "无效的生命值数值。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:672
+msgid "Monsters were spawned."
+msgstr "怪物已生成。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:674
+#, csharp-format
+msgid "Monsters were spawned at your location by {0}."
+msgstr "{0} 在你的位置生成了怪物。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:705
+#, csharp-format
+msgid "Added {0} hats to your inventory."
+msgstr "你的背包增加了 {0} 顶帽子。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:709
+#, csharp-format
+msgid "{1} added {0} hats to your inventory."
+msgstr "{1} 向你的背包添加了 {0} 顶帽子。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:710
+#, csharp-format
+msgid "Added {0} hats to target's inventory."
+msgstr "目标的背包增加了 {0} 顶帽子。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:739
+msgid "Name already exists."
+msgstr "名称已存在。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:746
+msgid "Name changed."
+msgstr "名称已修改。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:748
+#, csharp-format
+msgid "Your name was changed by {0}."
+msgstr "你的名称被 {0} 修改。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:764
+msgid "Reloading scripts..."
+msgstr "正在重新加载脚本..."
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:769
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:789
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:809
+msgid "Done."
+msgstr "完成。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:785
+msgid "Reloading configuration..."
+msgstr "正在重新加载配置..."
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:805
+msgid "Reloading data..."
+msgstr "正在重新加载数据..."
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:837
+msgid "Your level was changed."
+msgstr "你的等级已变更。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:841
+#, csharp-format
+msgid "Your level was changed by {0}."
+msgstr "你的等级被 {0} 修改。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:842
+msgid "The target's level was changed."
+msgstr "目标的等级已变更。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:868
+msgid "Your current job's level can't be increased any further."
+msgstr "你当前职业的等级已达上限。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:870
+msgid "The level of the target's current job can't be increased any further."
+msgstr "目标当前职业的等级已达上限。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:876
+#, csharp-format
+msgid "Your job level was increased by {0} level."
+msgid_plural "Your job level was increased by {0} levels."
+msgstr[0] "你的职业等级提升了 {0} 级。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:880
+#, csharp-format
+msgid "Your job level was increased by {0} by {1} level."
+msgid_plural "Your job level was increased by {0} by {1} levels."
+msgstr[0] "{0} 将你的职业等级提升了 {1} 级。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:881
+#, csharp-format
+msgid "The target's job level was increased by {0} level."
+msgid_plural "The target's job level was increased by {0} levels."
+msgstr[0] "目标的职业等级提升了 {0} 级。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:913
+msgid "Your speed was changed."
+msgstr "你的移动速度已变更。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:917
+#, csharp-format
+msgid "Your speed was changed by {0}."
+msgstr "你的移动速度被 {0} 修改。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:918
+msgid "Target's speed was changed."
+msgstr "目标的移动速度已变更。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:943
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1070
+#, csharp-format
+msgid "No items found for '{0}'."
+msgstr "未找到与「{0}」相关的物品。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:949
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:988
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1078
+#, csharp-format
+msgid "Results: {0} (Max. {1} shown)"
+msgstr "结果：{0}（最多显示 {1} 条）"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:953
+#, csharp-format
+msgid "{0}: {1}, Category: {2}"
+msgstr "{0}：{1}，分类：{2}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:982
+#, csharp-format
+msgid "No monsters found for '{0}'."
+msgstr "未找到与「{0}」相关的怪物。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:995
+#, csharp-format
+msgid "{{nl}}----- {0} ({1}, {2}) -----{{nl}}"
+msgstr "{{nl}}----- {0}（{1}，{2}）-----{{nl}}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:996
+#, csharp-format
+msgid "{0} / {1} / {2} / {3}{{nl}}"
+msgstr "{0} / {1} / {2} / {3}{{nl}}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:997
+#, csharp-format
+msgid "HP: {0}  SP: {1}  EXP: {2}  CEXP: {3}{{nl}}"
+msgstr "生命：{0}  精神：{1}  经验：{2}  职业经验：{3}{{nl}}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:998
+#, csharp-format
+msgid "Atk: {0}~{1}  MAtk: {2}~{3}  Def: {4}  MDef: {5}{{nl}}"
+msgstr "物攻：{0}~{1}  魔攻：{2}~{3}  物防：{4}  魔防：{5}{{nl}}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1002
+msgid "Drops:"
+msgstr "掉落："
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1029
+#, csharp-format
+msgid "{{nl}}- {0} {1} ({2:0.####}% -> {3:0.####}%)"
+msgstr "{{nl}}- {0} {1}（{2:0.####}% → {3:0.####}%）"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1031
+#, csharp-format
+msgid "{{nl}}- {0}~{1} {2} ({3:0.####}% -> {4:0.####}%)"
+msgstr "{{nl}}- {0}~{1} {2}（{3:0.####}% → {4:0.####}%）"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1035
+#, csharp-format
+msgid "{{nl}}- {0} ({1:0.####}% -> {2:0.####}%)"
+msgstr "{{nl}}- {0}（{1:0.####}% → {2:0.####}%）"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1041
+msgid "This monster has no drops."
+msgstr "该怪物无掉落物。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1085
+#, csharp-format
+msgid "{{nl}}----- {0} -----{{nl}}"
+msgstr "{{nl}}----- {0} -----{{nl}}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1091
+msgid "Too many enemies drop this."
+msgstr "过多怪物掉落此物品。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1095
+msgid "This item is not dropped by any monsters"
+msgstr "无怪物掉落此物品"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1112
+#, csharp-format
+msgid "Listing up to {0} best sources of this item:"
+msgstr "列出此物品的 {0} 个最佳来源："
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1120
+#, csharp-format
+msgid "{{nl}}{0} ({1}, {2}) - {3:0.####}%"
+msgstr "{{nl}}{0}（{1}，{2}）- {3:0.####}%"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1143
+#, csharp-format
+msgid "Destinations: {0}"
+msgstr "目的地：{0}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1154
+msgid "Unknown destination."
+msgstr "未知目的地。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1192
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1232
+msgid "Character not found."
+msgstr "未找到角色。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1200
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1238
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1336
+#, csharp-format
+msgid "You've been warped to {0}'s location."
+msgstr "你已被传送至 {0} 的位置。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1205
+#, csharp-format
+msgid "You've been warped to {0}'s location by {1}."
+msgstr "你被 {1} 传送至 {0} 的位置。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1239
+msgid "Character was warped."
+msgstr "角色已被传送。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1241
+#, csharp-format
+msgid "{0} was warped to your location by {1}."
+msgstr "{0} 被 {1} 传送至你的位置。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1276
+msgid "Unknown map."
+msgstr "未知地图。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1286
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1314
+msgid "No players found."
+msgstr "未找到玩家。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1341
+#, csharp-format
+msgid "You have called {0} characters to your location."
+msgstr "你已召集 {0} 名角色至你的位置。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1345
+#, csharp-format
+msgid "You have called {0} characters to target's location."
+msgstr "你已召集 {0} 名角色至目标位置。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1346
+#, csharp-format
+msgid "{1} called {0} characters to your location."
+msgstr "{1} 召集了 {0} 名角色至你的位置。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1377
+msgid "Healed HP and SP."
+msgstr "生命与精神已恢复。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1379
+#, csharp-format
+msgid "Your HP and SP were healed by {0}."
+msgstr "{0} 恢复了你的生命与精神。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1389
+#, csharp-format
+msgid "Healed HP by {0} points."
+msgstr "恢复了 {0} 点生命值。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1391
+#, csharp-format
+msgid "{0} healed your HP by {1} points."
+msgstr "{0} 为你恢复了 {1} 点生命值。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1405
+#, csharp-format
+msgid "Healed HP by {0} and SP by {1} points."
+msgstr "恢复了 {0} 点生命值和 {1} 点精神值。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1407
+#, csharp-format
+msgid "{0} healed your HP by {1} and your SP by {2} points."
+msgstr "{0} 为你恢复了 {1} 点生命值和 {2} 点精神值。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1430
+#, csharp-format
+msgid "Healed HP by {0}, SP by {1}, and Stamina by {2} points."
+msgstr "恢复了 {0} 点生命值、{1} 点精神值和 {2} 点耐力。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1432
+#, csharp-format
+msgid "{0} healed your HP by {1}, SP by {2}, and Stamina by {3} points."
+msgstr "{0} 为你恢复了 {1} 点生命值、{2} 点精神值和 {3} 点耐力。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1451
+msgid "Inventory cleared."
+msgstr "背包已清空。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1453
+#, csharp-format
+msgid "Your inventory was cleared by {0}."
+msgstr "你的背包被 {0} 清空。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1478
+#, csharp-format
+msgid "Job data for '{0}' not found."
+msgstr "未找到「{0}」的职业数据。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1495
+msgid "The job exists already, at an equal or higher circle."
+msgstr "该职业已存在相同或更高阶级。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1508
+#, csharp-format
+msgid "Job '{0}' was added at circle '{1}'."
+msgstr "已添加「{0}」职业（阶级 {1}）。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1510
+#, csharp-format
+msgid "Job '{0}' was added to your character at circle '{1}' by {2}."
+msgstr "{2} 为你的角色添加了「{0}」职业（阶级 {1}）。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1536
+msgid "You can't remove the last remaining job."
+msgstr "无法移除最后一个职业。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1542
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1583
+msgid "The job doesn't exist."
+msgstr "该职业不存在。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1548
+#, csharp-format
+msgid "Job '{0}' was removed. Login again to see the change."
+msgstr "已移除「{0}」职业，请重新登录查看变更。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1552
+#, csharp-format
+msgid "Job '{0}' was removed by {1}. Login again to see the change."
+msgstr "{1} 移除了你的「{0}」职业，请重新登录查看变更。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1553
+#, csharp-format
+msgid "Job '{0}' was removed from target."
+msgstr "目标的「{0}」职业已被移除。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1589
+#, csharp-format
+msgid "Modified {0}'s skill points by {1:+0;-0;0}."
+msgstr "调整了 {0} 的技能点数（{1:+0;-0;0}）。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1593
+#, csharp-format
+msgid "Modified target {0}'s skill points by {1:+0;-0;0}."
+msgstr "调整了目标 {0} 的技能点数（{1:+0;-0;0}）。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1594
+#, csharp-format
+msgid "Your {0}'s skill points were modified by {1}."
+msgstr "{1} 调整了你的 {0} 技能点数。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1628
+#, csharp-format
+msgid "Added {0} stat points."
+msgstr "增加了 {0} 点属性点数。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1630
+#, csharp-format
+msgid "{1} added {0} stat points to your character."
+msgstr "{1} 为你的角色增加了 {0} 点属性点数。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1649
+msgid "Opened personal storage."
+msgstr "已打开个人仓库。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1651
+#, csharp-format
+msgid "Your personal storage was opened by '{0}'"
+msgstr "你的个人仓库被 {0} 打开"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1655
+msgid "Already browsing personal storage."
+msgstr "正在访问个人仓库。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1695
+msgid "Autoloot is now active."
+msgstr "自动拾取已启用。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1697
+msgid "Autoloot is now inactive."
+msgstr "自动拾取已停用。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1699
+#, csharp-format
+msgid "Autoloot is now active for items up to a drop chance of {0}%."
+msgstr "已启用自动拾取（掉落率 ≤ {0}% 的物品）。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1724
+msgid "Disabled AI."
+msgstr "AI 已禁用。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1730
+msgid "No AI active."
+msgstr "无活跃的 AI。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1746
+#, csharp-format
+msgid "Enabled '{0}' AI."
+msgstr "已启用「{0}」AI。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1904
+#, csharp-format
+msgid "Feature '{0}' not found."
+msgstr "未找到功能「{0}」。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1911
+#, csharp-format
+msgid "Enabled feature '{0}'."
+msgstr "已启用功能「{0}」。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1913
+#, csharp-format
+msgid "Disabled feature '{0}'."
+msgstr "已禁用功能「{0}」。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1935
+msgid "Skill cooldowns reset."
+msgstr "技能冷却已重置。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1988
+#, csharp-format
+msgid "Request for kicking players on map '{0}' sent."
+msgstr "已发送踢出地图「{0}」玩家的请求。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:1995
+#, csharp-format
+msgid "Request for kicking player '{0}' sent."
+msgstr "已发送踢出玩家「{0}」的请求。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2171
+msgid "The camera was fixed in place."
+msgstr "镜头位置已固定。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2176
+msgid "The camera was unfixed."
+msgstr "镜头位置已解除固定。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2198
+#, csharp-format
+msgid "Unfixed time of day, it's now '{0}'."
+msgstr "已解除时间锁定，当前时间为「{0}」。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2208
+msgid "Invalid time of day."
+msgstr "无效的时间设置。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2213
+#, csharp-format
+msgid "Fixed time of day to '{0}'."
+msgstr "已锁定时间为「{0}」。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2233
+msgid "The character is currently set to *not* be saved on logout."
+msgstr "当前角色设置为登出时不保存。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2235
+msgid "The character is currently set to be saved on logout."
+msgstr "当前角色设置为登出时保存。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2246
+msgid "The character was set to *not* be saved on logout."
+msgstr "角色已设置为登出时不保存。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2248
+msgid "The character was set to be saved on logout."
+msgstr "角色已设置为登出时保存。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2267
+msgid "This action requires a Megaphone."
+msgstr "此操作需要扩音器。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2309
+#, csharp-format
+msgid "Current TP: {0}"
+msgstr "当前TP：{0}"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2320
+#, csharp-format
+msgid "Modified TP ({1} -> {2})."
+msgstr "TP已调整（{1} → {2}）。"
+
+#: src/ZoneServer/Commands/ChatCommands.Handlers.cs:2323
+#, csharp-format
+msgid "Your TP were modified by {0} ({1} -> {2})."
+msgstr "你的TP被{0}调整（{1} → {2}）。"
+
+#: src/ZoneServer/Commands/ChatCommands.Manager.cs:70
+#, csharp-format
+msgid "Unknown command '{0}'."
+msgstr "未知命令「{0}」。"
+
+#: src/ZoneServer/Commands/ChatCommands.Manager.cs:81
+msgid ""
+"No authority levels were set for this command and no default levels could be "
+"found."
+msgstr "未设置该命令的权限等级且未找到默认权限。"
+
+#: src/ZoneServer/Commands/ChatCommands.Manager.cs:92
+msgid "You're not authorized to use this command."
+msgstr "你无权使用此命令。"
+
+#: src/ZoneServer/Commands/ChatCommands.Manager.cs:104
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_Scan.cs:29
+msgid "No target specified."
+msgstr "未指定目标。"
+
+#: src/ZoneServer/Commands/ChatCommands.Manager.cs:111
+msgid "Target character not found."
+msgstr "未找到目标角色。"
+
+#: src/ZoneServer/Database/ZoneDb.cs:948
+msgid "message"
+msgstr "消息"
+
+#: src/ZoneServer/Network/PacketHandler.cs:287
+msgid "You are not allowed to speak right now."
+msgstr "你当前无法发言。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:802
+msgid "This item has not been implemented yet."
+msgstr "此物品尚未实装。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:812
+msgid "Item usage failed."
+msgstr "物品使用失败。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:837
+msgid "This item has not been fully implemented yet."
+msgstr "此物品功能尚未完全实装。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:842
+#: src/ZoneServer/Network/PacketHandler.cs:2312
+#: src/ZoneServer/Network/PacketHandler.cs:2355
+#: src/ZoneServer/Network/PacketHandler.cs:2362
+msgid "Apologies, something went wrong there. Please report this issue."
+msgstr "抱歉，发生意外错误，请报告此问题。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:1058
+#: src/ZoneServer/Network/PacketHandler.cs:1150
+#: src/ZoneServer/Network/PacketHandler.cs:1263
+#: src/ZoneServer/Network/PacketHandler.cs:1333
+msgid "You may not use this yet."
+msgstr "你尚未解锁此功能。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:1090
+#: src/ZoneServer/Network/PacketHandler.cs:1102
+#: src/ZoneServer/Network/PacketHandler.cs:1170
+#: src/ZoneServer/Network/PacketHandler.cs:1218
+#: src/ZoneServer/Network/PacketHandler.cs:1290
+#: src/ZoneServer/Network/PacketHandler.cs:1342
+msgid "This skill has not been implemented yet."
+msgstr "此技能尚未实装。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:1479
+#: src/ZoneServer/Network/PacketHandler.cs:1539
+msgid "Team storage has not been implemented yet."
+msgstr "团队仓库尚未实装。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:1597
+msgid ""
+"Something went wrong while extending the storage, please report this issue."
+msgstr "扩展仓库时发生错误，请报告此问题。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:2320
+msgid "This action has not been implemented yet."
+msgstr "此操作尚未实装。"
+
+#: src/ZoneServer/Network/PacketHandler.cs:2658
+msgid "You don't have enough points."
+msgstr "点数不足。"
+
+#: src/ZoneServer/Scripting/Extensions/Keywords/CharacterExtensions.cs:47
+#, csharp-format
+msgid "You learned of the '{0}' keyword."
+msgstr "你获得了「{0}」关键词。"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:244
+#, csharp-format
+msgid "({0} is giving you an impression as if you're interruping something.)"
+msgstr "（{0} 的表情似乎表明你打断了某些事情。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:247
+#, csharp-format
+msgid ""
+"({0} is giving you a look as if it may be better to stop this conversation.)"
+msgstr "（{0} 的眼神似乎在暗示你该结束对话了。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:250
+#, csharp-format
+msgid "({0} is giving you a welcome look.)"
+msgstr "（{0} 向你投来欢迎的目光。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:253
+#, csharp-format
+msgid "({0} is giving you a friendly smile.)"
+msgstr "（{0} 对你露出友好的微笑。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:256
+#, csharp-format
+msgid "({0} is looking at you with great interest.)"
+msgstr "（{0} 饶有兴致地打量着你。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:259
+#, csharp-format
+msgid "({0} is looking at you like they don't want to see you.)"
+msgstr "（{0} 的眼神似乎不愿见到你。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:262
+#, csharp-format
+msgid "({0} is looking at you with obvious disgust.)"
+msgstr "（{0} 用明显厌恶的眼神看着你。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:265
+#, csharp-format
+msgid "({0} looks like your presence is somewhat unpleasent.)"
+msgstr "（{0} 似乎对你的存在感到不悦。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:268
+#, csharp-format
+msgid "({0} is smiling at me as if we've known each other for years.)"
+msgstr "（{0} 的微笑仿佛我们是多年老友。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:271
+#, csharp-format
+msgid "({0} is really giving me a friendly vibe.)"
+msgstr "（{0} 散发出友好的气息。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:277
+#, csharp-format
+msgid "({0} is looking at you.)"
+msgstr "（{0} 正注视着你。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:278
+#, csharp-format
+msgid "({0} is looking in your direction.)"
+msgstr "（{0} 正朝你的方向张望。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:279
+#, csharp-format
+msgid "({0} is waiting for you to say something.)"
+msgstr "（{0} 在等待你开口。）"
+
+#: src/ZoneServer/Scripting/Extensions/LivelyDialog/NpcExtensions.cs:280
+#, csharp-format
+msgid "({0} is paying attention to you.)"
+msgstr "（{0} 正在关注你。）"
+
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_Concentration.cs:29
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_Fulldraw.cs:56
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_HeavyShot.cs:25
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_Jump.cs:29
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_Multishot.cs:61
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_ObliqueShot.cs:28
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_SwiftStep.cs:29
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_TwinArrows.cs:25
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_Barrage.cs:25
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_BlazingArrow.cs:30
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_BounceShot.cs:34
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_HighAnchoring.cs:37
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_Scan.cs:35
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_SpiralArrow.cs:53
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_Strafe.cs:30
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_TimeBombArrow.cs:29
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_CrescendoBane.cs:28
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_JincanGu.cs:35
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_LatentVenom.cs:29
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_ThrowGuPot.cs:36
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_WideMiasma.cs:33
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_WugongGu.cs:29
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_Zhendu.cs:31
+#: src/ZoneServer/Skills/Handlers/Clerics/Cleric/Cleric_Cure.cs:33
+#: src/ZoneServer/Skills/Handlers/Clerics/Cleric/Cleric_Fade.cs:29
+#: src/ZoneServer/Skills/Handlers/Clerics/Cleric/Cleric_Heal.cs:37
+#: src/ZoneServer/Skills/Handlers/Clerics/Cleric/Cleric_PatronSaint.cs:28
+#: src/ZoneServer/Skills/Handlers/Clerics/Cleric/Cleric_Smite.cs:35
+#: src/ZoneServer/Skills/Handlers/Common/MeleeGround.cs:37
+#: src/ZoneServer/Skills/Handlers/Common/TargetSkill.cs:31
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_Granata.cs:40
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_Invasione.cs:35
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_Recupero.cs:34
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_Ritirarsi.cs:34
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_Taglio.cs:32
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_TreGranata.cs:36
+#: src/ZoneServer/Skills/Handlers/Scouts/Assassin/Assassin_Behead.cs:39
+#: src/ZoneServer/Skills/Handlers/Scouts/Assassin/Assassin_Hasisas.cs:32
+#: src/ZoneServer/Skills/Handlers/Scouts/Assassin/Assassin_InstantaneousAcceleration.cs:36
+#: src/ZoneServer/Skills/Handlers/Scouts/Scout/Scout_Cloaking.cs:29
+#: src/ZoneServer/Skills/Handlers/Scouts/Scout/Scout_DaggerSlash.cs:36
+#: src/ZoneServer/Skills/Handlers/Scouts/Scout/Scout_DoubleAttack.cs:28
+#: src/ZoneServer/Skills/Handlers/Scouts/Scout/Scout_FreeStep.cs:28
+#: src/ZoneServer/Skills/Handlers/Scouts/Scout/Scout_ObliqueFire.cs:30
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_Aggressor.cs:31
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_Cleave.cs:37
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_Embowel.cs:40
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_GiantSwing.cs:55
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_Pouncing.cs:32
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_Savagery.cs:30
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_Seism.cs:36
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_StompingKick.cs:37
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_Warcry.cs:34
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Cyclone.cs:69
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_DeedsOfValor.cs:31
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Double_pay_earn.cs:28
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Mordschlag.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Punish.cs:52
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Redel.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Sturzhau.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Zornhau.cs:38
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Zucken.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Zwerchhau.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Highlander/Highlander_CartarStroke.cs:55
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Highlander/Highlander_CrossCut.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Highlander/Highlander_Crown.cs:40
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Highlander/Highlander_Moulinet.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Highlander/Highlander_ScullSwing.cs:37
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Highlander/Highlander_SkyLiner.cs:54
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Highlander/Highlander_VerticalSlash.cs:36
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Highlander/Highlander_WagonWheel.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_Finestra.cs:28
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_LongStride.cs:75
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_Pierce.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_SpearLunge.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_Stabbing.cs:40
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_SynchroThrusting.cs:39
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_ThrouwingSpear.cs:59
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_Guardian.cs:30
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_HardShield.cs:30
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_HighGuard.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_Langort.cs:40
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_RimBlow.cs:40
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_ShieldLob.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_SwashBuckling.cs:33
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_UmboBlow.cs:42
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Peltasta/Peltasta_UmboThrust.cs:38
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_HighKick.cs:37
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_Montano.cs:38
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_ShieldBash.cs:39
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_ShieldCharge.cs:33
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_ShieldPush.cs:40
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_ShieldShoving.cs:38
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_ShootingStar.cs:36
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_Slithering.cs:59
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Rodelero/Rodelero_TargeSmash.cs:40
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_Bash.cs:35
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_Bear.cs:29
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_Concentrate.cs:31
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_DoubleSlash.cs:37
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_GungHo.cs:28
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_Liberate.cs:28
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_PainBarrier.cs:28
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_PommelBeat.cs:39
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_Restrain.cs:30
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Swordsman/Swordman_Thrust.cs:35
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_EarthQuake.cs:33
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_EnergyBolt.cs:30
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_Lethargy.cs:42
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_MagicMissile.cs:39
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_ReflectShield.cs:28
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_Teleportation.cs:33
+msgid "Not enough SP."
+msgstr "SP不足。"
+
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_HeavyShot.cs:41
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_Multishot.cs:67
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_ObliqueShot.cs:44
+#: src/ZoneServer/Skills/Handlers/Archers/Archer/Archer_TwinArrows.cs:41
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_Barrage.cs:41
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_BlazingArrow.cs:46
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_BounceShot.cs:50
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_SpiralArrow.cs:97
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_Strafe.cs:45
+#: src/ZoneServer/Skills/Handlers/Archers/Ranger/Ranger_TimeBombArrow.cs:45
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_JincanGu.cs:41
+#: src/ZoneServer/Skills/Handlers/Archers/Wugushi/Wugushi_ThrowGuPot.cs:42
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_Granata.cs:46
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_Ritirarsi.cs:40
+#: src/ZoneServer/Skills/Handlers/Scouts/Ardito/Arditi_TreGranata.cs:42
+#: src/ZoneServer/Skills/Handlers/Scouts/Scout/Scout_ObliqueFire.cs:46
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Punish.cs:45
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_EnergyBolt.cs:46
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_Lethargy.cs:36
+msgid "Too far away."
+msgstr "距离过远。"
+
+#: src/ZoneServer/Skills/Handlers/Scouts/Assassin/Assassin_Hasisas.cs:38
+msgid "You need a Hasisas Potion."
+msgstr "你需要哈西斯药水。"
+
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_GiantSwing.cs:40
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_LongStride.cs:54
+#: src/ZoneServer/Skills/Handlers/Wizards/Wizard/Wizard_Lethargy.cs:30
+msgid "No target location specified."
+msgstr "未指定目标位置。"
+
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Barbarian/Barbarian_GiantSwing.cs:48
+msgid "Invalid Location."
+msgstr "无效的位置。"
+
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Redel.cs:44
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Doppelsoeldner/Doppelsoeldner_Zucken.cs:44
+msgid "Can't use this skill."
+msgstr "无法使用此技能。"
+
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_LongStride.cs:61
+msgid "Invalid target location."
+msgstr "目标位置无效。"
+
+#: src/ZoneServer/Skills/Handlers/Swordsmen/Hoplite/Hoplite_LongStride.cs:68
+msgid "Too far."
+msgstr "距离过远。"
+
+#: src/ZoneServer/World/Actors/Characters/Character.cs:1354
+msgid "Melia.CityReturnLocation.Map"
+msgstr "梅利亚回城点地图"
+
+#: src/ZoneServer/World/Quests/Rewards/ExpReward.cs:52
+#, csharp-format
+msgid "{0} EXP, {1} Job EXP"
+msgstr "{0} 经验，{1} 职业经验"
+
+#: src/ZoneServer/World/Quests/Rewards/ItemReward.cs:65
+#, csharp-format
+msgid "{0}"
+msgid_plural "{1}x {0}"
+msgstr[0] "{0}×{1}"
+
+#: src/ZoneServer/World/Quests/Rewards/SilverReward.cs:26
+#, csharp-format
+msgid "{0} Silver"
+msgstr "{0} 银币"
+
+#: src/ZoneServer/ZoneServer.cs:252
+#, csharp-format
+msgid "You were kicked by {0}."
+msgstr "你被 {0} 踢出游戏。"
+
+#: system/scripts/zone/core/client/worldmap/main.cs:70
+#, csharp-format
+msgid "To {0}"
+msgstr "前往{0}"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:28
+msgid "[Stylist] Jeremy"
+msgstr "[造型师] 杰里米"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:36
+msgid "Jeremy"
+msgstr "杰里米"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:38
+msgid "What can I do for you today?"
+msgstr "今天需要什么服务？"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:39
+msgid "Change Hair Style"
+msgstr "更换发型"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:40
+msgid "Change Hair Color"
+msgstr "更换发色"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:41
+msgid "Nothing"
+msgstr "不需要"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:46
+msgid "Please come back any time."
+msgstr "欢迎随时光临。"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:53
+msgid "Good decision, one should treat themselves once in a while."
+msgstr "明智的选择，偶尔犒劳自己是应该的。"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:87
+msgid "Which style would you like to see, do you have a number for me?"
+msgstr "想查看哪个发型？请告诉我编号。"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:91
+msgid "Hm... Not a number, is it?"
+msgstr "嗯... 这不是个数字吧？"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:98
+msgid "I'm sorry, I don't know that style."
+msgstr "抱歉，我不认识这个发型编号。"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:106
+msgid "Hm, hm, I agree. That style does suit you. Please come back any time."
+msgstr "嗯，确实很适合你。欢迎随时再来。"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:119
+#: system/scripts/zone/custom/npcs/stylist.cs:125
+msgid "Next"
+msgstr "下一个"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:120
+#: system/scripts/zone/custom/npcs/stylist.cs:124
+msgid "Previous"
+msgstr "上一个"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:128
+msgid "Jump"
+msgstr "跳转"
+
+#: system/scripts/zone/custom/npcs/stylist.cs:129
+msgid "I like it"
+msgstr "就这个了"
+
+#: system/scripts/zone/items/campfire.cs:39
+msgid "You can't build a bonfire in this location."
+msgstr "此处无法建造篝火。"
+
+#: system/scripts/zone/items/campfire.cs:49
+msgid "This location is too far away."
+msgstr "位置过远。"
+
+#: system/scripts/zone/items/campfire.cs:55
+msgid "There is already a bonfire nearby."
+msgstr "附近已有篝火。"
+
+#: system/scripts/zone/items/campfire.cs:61
+msgid "You need Firewood to build a bonfire."
+msgstr "需要柴火才能建造篝火。"
+
+#: system/scripts/zone/items/dot_buff.cs:32
+#, csharp-format
+msgid "Invalid buff '{0}', please report."
+msgstr "无效的增益「{0}」，请报告。"
+
+#: system/scripts/zone/items/summoning.cs:23
+#: system/scripts/zone/items/summoning.cs:68
+msgid "Summoning the monster failed."
+msgstr "召唤怪物失败。"
+
+#: system/scripts/zone/items/summoning.cs:43
+msgid "This monster is already summoned."
+msgstr "该怪物已被召唤。"
